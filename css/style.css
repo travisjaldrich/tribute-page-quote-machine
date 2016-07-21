@@ -1,0 +1,136 @@
+/***** BASICS *****/
+
+body {
+	background-color: #82c49d;
+	padding: 5%;
+	font-family: Futura;
+}
+
+#whole {
+	background-color: #dbd9c5;
+	padding: 5%;
+	border-radius: 30px;
+}
+
+
+/***** IMAGES *****/
+
+#wes {
+	display: block;
+	margin: auto;
+	width: 70%;
+	border-radius: 70px;
+	padding: 25px 0px 25px 0px;
+}
+
+.movie {
+	display: block;
+	margin: auto;
+
+}
+
+
+/***** FILMOGRAPHY *****/
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	padding: 20px 0 0 0;
+}
+
+ul li a p {
+	margin: 0;
+	padding: 8px 0 0 0;
+	text-align: center;
+}
+
+
+/***** TEXT *****/
+
+h1 {
+	color: #f2808e;
+	float: left;
+  margin-left: 15%;
+  text-align: left;
+  width: 100%;
+}
+
+h2 {
+	color: #9e7b4a;
+	clear: left;
+	float: right;
+  margin-right: 15%;
+  text-align: right;
+  width: 100%;
+}
+
+h3 {
+	color: #f2808e;
+	text-align: center;
+}
+
+p {
+	display: block;
+	margin: auto;
+	color: #9e7b4a;
+	padding: 25px;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	color: #d4ac4e;
+}
+
+a:hover {
+	color: #d4ac4e;
+}
+
+footer p {
+	padding: 30px 0 0 0;
+	text-align: right;
+}
+
+
+/***** QUOTE MACHINE *****/
+
+button {
+	display: block;
+	margin: auto;
+	width: 150px;
+	background-color: #82c49d;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+}
+
+#quote {
+	text-align: center;
+}
+
+#quote-bg {
+	background-color: white;
+	margin: 0 15% 0;
+	padding: 0 2.9% 0;
+	height: 150px;
+	border-radius: 30px;
+}
+
+#quote-title {
+	clear: both;
+	padding: 20px 0 10px;
+}
+
+#tweet {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: ;
+}
+
+#tweet-button {
+	background-color: #55acee;
+}
