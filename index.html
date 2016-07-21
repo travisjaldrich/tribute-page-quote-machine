@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wes Anderson Tribute Page & Quote Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body>
+	<div id="whole" class="container-fluid">
+		<h1>Wes ANDERSON</h1>
+		<h2>Visionary Auteur.</h2>
+		<a href="https://en.wikipedia.org/wiki/Wes_Anderson"><img src="http://the-talks.com/wp-content/uploads/2015/04/Wes-Anderson-01.jpg" alt="Wes Anderson" id="wes"></a>
+		<p>When forced to sum up all of the eccentricities of the postmodern condition,
+			<a href="https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Lyotard">Jean-Francois Lyotard</a> defined it as “incredulity toward metanarratives.” However, the films of Wes Anderson represent a commingling of
+			<a href="https://en.wikipedia.org/wiki/Postmodernism">postmodern concepts</a> like pastiche, mediatization, and authenticity with the modern concept of the metanarrative.<br><br> Rather than reacting against the metanarrative, Anderson creates his
+			own metanarrative, maybe not for how people ought to live but how the characters in his films do live and then find redemption. Borrowing from other works and also playing with the multiple realities created by mediatization, Anderson crafts stories
+			in which young characters are often striving to break free of the chains of external influence and achieve authenticity. <br><br> But this task is not without its casualties. Young characters contrast with older characters, who have achieved much in
+			the way of self-actualization but in doing so have hurt many people, usually those closest to them. Eventually, they become aware of their own wrongdoing and the ways in which they have failed those who relied on or looked up to them. And this is when
+			they seek redemption and attempt to repair broken relationships. Neither heroes nor anti-heroes, these characters are semi-heroes, deeply flawed people who nevertheless become truly noble.</p>
+		<h3>THE FILMS OF WES ANDERSON</h3>
+		<section class="container-fluid">
+			<ul>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt0115734/?ref_=nv_sr_1" target="_blank">
+						<img src="http://www.nitehawkcinema.com/wp-content/uploads/2014/03/bottle-rocket-affiche_404238_21252.jpg" class="img-responsive">
+						<p>Bottle Rocket (1996)</p>
+					</a>
+				</li>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt0128445/?ref_=tt_rec_tt" target="_blank">
+						<img src="http://www.impawards.com/1998/posters/rushmore_ver1.jpg" class="img-responsive">
+						<p>Rushmore (1998)</p>
+					</a>
+				</li>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt0265666/?ref_=nv_sr_1" target="_blank">
+						<img src="http://www.anythinklibraries.org/sites/default/files/the-royal-tenenbaums-film-poster.png" class="img-responsive">
+						<p>The Royal Tenenbaums (2001)</p>
+					</a>
+				</li>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt0362270/?ref_=nv_sr_2" target="_blank">
+						<img src="http://www.impawards.com/2004/posters/life_aquatic_with_steve_zissou.jpg" class="img-responsive">
+						<p>The Life Aquatic with Steve Zissou (2004)</p>
+					</a>
+				</li>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt0838221/?ref_=nv_sr_1" target="_blank">
+						<img src="http://www.impawards.com/2007/posters/darjeeling_limited.jpg" class="img-responsive">
+						<p>The Darjeeling Limited (2007)</p>
+					</a>
+				</li>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt0432283/?ref_=nv_sr_1" target="_blank">
+						<img src="http://www.impawards.com/2009/posters/fantastic_mr_fox.jpg" class="img-responsive">
+						<p>Fantastic Mr. Fox (2009)</p>
+					</a>
+				</li>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt1748122/?ref_=nv_sr_1" target="_blank">
+						<img src="http://cdn.collider.com/wp-content/uploads/moonrise-kingdom-poster1.jpg" class="img-responsive">
+						<p>Moonrise Kingdom (2012)</p>
+					</a>
+				</li>
+				<li class="col-sm-3">
+					<a href="http://www.imdb.com/title/tt2278388/?ref_=nv_sr_1" target="_blank">
+						<img src="http://www.impawards.com/2014/posters/grand_budapest_hotel.jpg" class="img-responsive">
+						<p>The Grand Budapest Hotel (2014)</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<h3 id="quote-title">MOVIE QUOTES</h3>
+		<button type="button" onclick="document.getElementById('quote').innerHTML = quoteGenerate()">Click for a quote</button>
+		<div id="quote-bg">
+			<p id="quote"></p>
+		</div>
+		<button type="button" id="tweet-button">
+				<a onclick="document.getElementById('tweet').href = tweetQuote()" id="tweet" target="_blank">
+				Tweet quote
+				</a>
+			</button>
+		<footer>
+			<p>Written and coded by Travis Aldrich.</p>
+		</footer>
+	</div>
+</body>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
