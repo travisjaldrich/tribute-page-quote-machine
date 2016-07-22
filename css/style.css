@@ -1,7 +1,7 @@
 /***** BASICS *****/
 
 body {
-	background-color: #82c49d;
+	background-color: #55acee;
 	padding: 5%;
 	font-family: Futura;
 }
@@ -102,7 +102,7 @@ button {
 	display: block;
 	margin: auto;
 	width: 150px;
-	background-color: #82c49d;
+	background-color: #55acee;
 	color: #ffffff;
 	border: none;
 	border-radius: 5px;
@@ -122,7 +122,7 @@ button {
 
 #quote-title {
 	clear: both;
-	padding: 20px 0 10px;
+	padding: 40px 0 10px;
 }
 
 #tweet {
