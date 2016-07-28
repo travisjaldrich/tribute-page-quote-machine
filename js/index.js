@@ -1,7 +1,7 @@
 var quote = "";
 
 function quoteGenerate() {
-	var num = Math.round((Math.random() * 10) + (Math.random() * 5));
+	var num = Math.round((Math.random() * 10) + (Math.random() * 7));
 	switch (num) {
 		case 0:
 			quote = '"Well, everyone knows Custer died at Little Bighorn. What this book presupposes is... maybe he didn\'t?"<br>- Eli Cash, <i>The Royal Tenenbaums</i>';
@@ -49,7 +49,10 @@ function quoteGenerate() {
 			quote = 'Hennessey: "Is this my espresso machine? How did you get my espresso machine?"<br>Ubell (Bond Company Stooge): "Well, uh... we fuckin\' stole it, man."<br>- <i>The Life Aquatic with Steve Zissou</i>';
 			break;
 		case 15:
-			quote = '"If you\'re not against me, don\'t cross this line. If yes, do."<br>- <i>The Life Aquatic with Steve Zissou</i>';
+			quote = '"If you\'re not against me, don\'t cross this line. If yes, do."<br>- Steve, <i>The Life Aquatic with Steve Zissou</i>';
+			break;
+		case 16:
+			quote = '"Tell that stupid mick he just made my list of things to do today. I\'m gonna pop a cap in his ass."<br>- Max Fischer, <i>Rushmore</i>';
 	}
 	return quote;
 }

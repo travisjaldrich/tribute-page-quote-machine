@@ -23,12 +23,6 @@ body {
 	padding: 25px 0px 25px 0px;
 }
 
-.movie {
-	display: block;
-	margin: auto;
-
-}
-
 
 /***** FILMOGRAPHY *****/
 
@@ -114,9 +108,10 @@ button {
 
 #quote-bg {
 	background-color: white;
-	margin: 0 15% 0;
+	margin: auto;
 	padding: 0 2.9% 0;
-	height: 150px;
+	max-width: 625px;
+	min-height: 150px;
 	border-radius: 30px;
 }
 
